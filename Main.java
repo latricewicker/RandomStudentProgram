@@ -43,27 +43,27 @@ while(isInArray==true && counter<21)
 }
    randomArray[i]=randomIndex;
 
-    apcsaCourse[0]="Lucas";
-    apcsaCourse[1]="Aayush";
-    apcsaCourse[2]="Ben";
-    apcsaCourse[3]="Smera";
-    apcsaCourse[4]="Aryan";
-    apcsaCourse[5]="Ivy";
-    apcsaCourse[6]="Liam";
-    apcsaCourse[7]="Evan";
-    apcsaCourse[8]="Adriana";
-    apcsaCourse[9]="Harsh";
-    apcsaCourse[10]="Daniel";
-    apcsaCourse[11]="Aleks";
-    apcsaCourse[12]="Mohnish";
-    apcsaCourse[13]="Zac";
-    apcsaCourse[14]="AJ";
-    apcsaCourse[15]="Alisha";
-    apcsaCourse[16]="Vachan";
-    apcsaCourse[17]="Vraj";
-    apcsaCourse[18]="Aidan";
-    apcsaCourse[19]="Matthew";
-    apcsaCourse[20]="Yash";
+    apcsaCourse[0]="Student_1";
+    apcsaCourse[1]="Student_2";
+    apcsaCourse[2]="Student_3";
+    apcsaCourse[3]="Student_4";
+    apcsaCourse[4]="Student_5";
+    apcsaCourse[5]="Student_6";
+    apcsaCourse[6]="Student_7";
+    apcsaCourse[7]="Student_8";
+    apcsaCourse[8]="Student_9";
+    apcsaCourse[9]="Student_10";
+    apcsaCourse[10]="Student_11";
+    apcsaCourse[11]="Student_12";
+    apcsaCourse[12]="Student_13";
+    apcsaCourse[13]="Student_14";
+    apcsaCourse[14]="Student_15";
+    apcsaCourse[15]="Student_16";
+    apcsaCourse[16]="Student_17";
+    apcsaCourse[17]="Student_18";
+    apcsaCourse[18]="Student_19";
+    apcsaCourse[19]="Student_20";
+    apcsaCourse[20]="Student_21";
    
    System.out.println("The random student is "+apcsaCourse[randomIndex]);
 
