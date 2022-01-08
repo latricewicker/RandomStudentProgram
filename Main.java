@@ -21,7 +21,7 @@ public class Main {
 while (counter<=randomArray.length && (answer.equals("Y")|| answer.equals("y")))
   {
    randomIndex=ran.nextInt(21);
-
+   System.out.println("random index="+randomIndex);
 
 //check to see if this is a new random name (randomIndex) or has been chosen before
 boolean isInArray=false;  
@@ -31,9 +31,10 @@ boolean isInArray=false;
  }
 
 //if have random name (randomindex) that's been shown before, this loop will find a new random name(randomindex) that hasn't been chosen before
-while(isInArray==true && counter<21)
+while(isInArray==true && counter<randomArray.length)
 {
    randomIndex=ran.nextInt(21);
+   System.out.println("next random index="+randomIndex);
  isInArray=false;  
  for (int index:randomArray){
    if (randomIndex==index)
